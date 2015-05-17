@@ -17,3 +17,8 @@
       $('.slider').slider({full_width: true});
     });
         
+
+function clickButton (){
+$(".accordion-content").toggleClass("open");
+};
+
