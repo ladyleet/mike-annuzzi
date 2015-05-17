@@ -20,8 +20,9 @@
       <div class="nav-wrapper indigo">
         <div class="container">
           <a href="#" class="brand-logo">Mike Annuzzi</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <!-- SOCIAL -->
+            <!-- BEGIN SOCIAL EXPANDED-->
             <li>
               <a href="https://itunes.apple.com/us/artist/mike-annuzzi/id501365928">
                 <span class= "fa-stack fa-2x">
@@ -56,8 +57,16 @@
               </a>
             </li>
             
-            <!-- END SOCIAL -->
+            <!-- END SOCIAL EXPANDED-->
           </ul>
+          <!-- BEGIN SOCIAL MOBILE -->
+          <ul class="side-nav" id="mobile-demo">
+        <li><a href="https://itunes.apple.com/us/artist/mike-annuzzi/id501365928">iTunes</a></li>
+        <li><a href="https://www.youtube.com/user/mikeannuzzi">YouTube</a></li>
+        <li><a href="https://www.facebook.com/mikeannuzzi">Facebook</a></li>
+        <li><a href="https://twitter.com/mikeannuzzi">Twitter</a></li>
+      </ul>
+      <!-- END SOCIAL -->
         </div>
       </div>
     </nav>
@@ -99,7 +108,7 @@
         <!-- BEGIN COLLECTIONS -->
         <ul class="collection z-depth-1">
           <li class="collection-item avatar">
-            <i onclick="playSong('music/pay-no-mind-mike-annuzzi.mp3')" class="mdi-av-play-arrow circle indigo"></i>
+            <i onclick="playSong(this, 'music/pay-no-mind-mike-annuzzi.mp3')" class="mdi-av-play-arrow circle indigo"></i>
             <span class="title">Pay No Mind</span>
             <p>
               Artist: Mike Annuzzi <br>
@@ -107,7 +116,7 @@
             </p>
           </li>
           <li class="collection-item avatar">
-            <i onclick="playSong('music/paradise-mike-annuzzi.mp3')" class="mdi-av-play-arrow circle indigo"></i>
+            <i onclick="playSong(this, 'music/paradise-mike-annuzzi.mp3')" class="mdi-av-play-arrow circle indigo"></i>
             <span class="title">Paradise</span>
             <p>
               Artist: Mike Annuzzi <br>
