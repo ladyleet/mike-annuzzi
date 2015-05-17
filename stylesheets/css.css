@@ -90,6 +90,9 @@ http://bdinfosys.com/demo/?item=materialx
 	color: #1a237e;
 }
 
+.brand-logo {
+	white-space: nowrap;
+}
 /*END BIO IMAGE*/
 
 /*BEGIN ACCORDIAN*/
