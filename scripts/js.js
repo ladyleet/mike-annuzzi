@@ -22,3 +22,6 @@ function clickButton (){
 $(".accordion-content").toggleClass("open");
 };
 
+function clickButtonShows (){
+$(".accordion-content-shows").toggleClass("open");
+};

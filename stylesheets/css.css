@@ -46,6 +46,7 @@ http://bdinfosys.com/demo/?item=materialx
 
 /* BEGIN BIO IMAGE */
 
+
 @media only screen and (max-width : 600px) {
 	.bio-image-container {
 		max-height: 285px;
@@ -92,19 +93,11 @@ http://bdinfosys.com/demo/?item=materialx
 
 /*END BIO IMAGE*/
 
-/*BEGIN ACCORDIAN*/
-
-body{
-  font-family: helvetica;
-  font-size: 18px;
-  text-align: center;
-}
+/*BEGIN ACCORDIAN VIDEOS*/
 
 .accordion {
   display: inline-block;
-  text-align: left;
-  margin: 1%;
-  width: 70%;
+  width: 100%;
 }
 .accordion .accordion-content.open {
   max-height: 1000px;
@@ -121,9 +114,6 @@ body{
   max-height: 0;
 }
 
-.accordion-inner{
-  padding: 0 15px;
-}
 
 .accordion-toggle {
   border-radius: 3px;
@@ -136,7 +126,42 @@ body{
 }
 
 
-/*END ACCORDIAN*/
+/*END ACCORDIAN VIDEOS*/
+
+/*BEGIN ACCORDIAN SHOWS*/
+
+.accordionShows {
+  display: inline-block;
+  width: 100%;
+}
+.accordionShows .accordion-content-shows.open {
+  max-height: 1000px;
+}
+
+
+.accordion-content-shows{
+  -webkit-transition: max-height 1s; 
+  -moz-transition: max-height 1s; 
+  -ms-transition: max-height 1s; 
+  -o-transition: max-height 1s; 
+  transition: max-height 1s;  
+  overflow: hidden;
+  max-height: 0;
+}
+
+
+.accordion-toggle {
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/*END ACCORDIAN SHOWS*/
 
 
 
