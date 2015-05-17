@@ -208,6 +208,7 @@
         </div>
         <!-- END ALBUMS -->
         <!-- BEGIN VIDEOS -->
+        <!-- BEGIN VIDEO DIV SHOWN -->
         <!-- VIDEO ROW 1 -->
         <div class="row">
           <div class="col s12 m6">
@@ -222,34 +223,53 @@
           </div>
         </div>
         <!-- END VIDEO ROW 1 -->
-        <!-- VIDEO ROW 2 -->
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card z-depth-1 video-container">
-              <iframe width="640" height="360" src="https://www.youtube.com/embed/gsQMyIyHrpE" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <div class="card z-depth-1 video-container">
-              <iframe width="640" height="360" src="https://www.youtube.com/embed/9dAnNQpuaYw" frameborder="0" allowfullscreen></iframe>
+        <!-- END VIDEO DIV SHOWN -->
+        
+        <!-- NEW VIDEO DIV HIDDEN WITH BUTTON-->
+        <div class="row center-row">
+          <div class="col s12">
+            <div class="accordion">
+              
+              <div class="accordion-toggle">
+              <button href="#" class="waves-effect waves-light btn-large indigo" onclick="clickButton()"><i class="mdi-av-video-collection right"></i>View All Videos</button>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-inner">
+                  <!-- VIDEO ROW 2 -->
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <div class="card z-depth-1 video-container">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/gsQMyIyHrpE" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="col s12 m6">
+                      <div class="card z-depth-1 video-container">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/9dAnNQpuaYw" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END VIDEO ROW 2 -->
+                  <!-- BEGIN VIDEO ROW 3 -->
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <div class="card z-depth-1 video-container">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/BoSK-dWgaHo" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="col s12 m6">
+                      <div class="card z-depth-1 video-container">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/X3n-YIFKXWU" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END VIDEO ROW 3 -->
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- END VIDEO ROW 2 -->
-        <!-- BEGIN VIDEO ROW 3 -->
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card z-depth-1 video-container">
-              <iframe width="640" height="360" src="https://www.youtube.com/embed/BoSK-dWgaHo" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <div class="card z-depth-1 video-container">
-             <iframe width="640" height="360" src="https://www.youtube.com/embed/X3n-YIFKXWU" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-        <!-- END VIDEO ROW 3 -->
+        <!-- END NEW VIDEO DIV HIDDEN -->
+        
         <!-- END VIDEOS -->
         
         <!-- END CODE -->
