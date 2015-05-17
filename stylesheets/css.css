@@ -1,0 +1,94 @@
+/* 
+Site References 
+Material design resume template
+http://themeforest.net/item/sility-vcard-cv-resume-html-template/full_screen_preview/10911929
+
+Themeforest agency
+http://themeforest.net/theme_previews/11172304-spartan-agencyportfolio-psd-template?index=6&url_name=spartan-agencyportfolio-psd-template
+
+Template
+http://bdinfosys.com/demo/?item=materialx
+*/
+
+.dark-primary-color    { background: #1976D2; }
+.default-primary-color { background: #2196F3; }
+.light-primary-color   { background: #BBDEFB; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #7C4DFF; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+
+.body-color{
+	background-image: url(../images/extra_clean_paper.png);
+}
+.pct-max-width-100 {
+	max-width: 100%;
+}
+
+.icon-accent-color:before { 
+	color: #7C4DFF;
+}
+
+.center-row {
+	text-align: center;
+}
+
+.random-blue{
+	background: #3F51B5;
+}
+.lighter-blue{
+	background: #3F51B5;
+}
+.grey-font{
+	color: #eee;
+}
+
+/* Bio image shit*/
+
+@media only screen and (max-width : 600px) {
+	.bio-image-container {
+		max-height: 285px;
+		overflow: hidden;
+	}
+	.bio-image {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 601px) {
+	.bio-image-container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		margin-right: 20px;
+		min-height: 285px;
+		max-height: 500px;
+		height: 100%;
+		float: left;
+	}
+	.bio-image{
+	}
+	.bio-content{
+		margin-left: 286px;
+		min-height: 220px;
+	}
+	.bio-card{
+		position: relative;
+		overflow: hidden;
+	}
+}
+.text-right{
+	text-align: right;
+	font-weight: bold;
+
+}
+.text-dark-indigo-darken-4{
+	color: #1a237e;
+}
+
+
+
+
+
+
