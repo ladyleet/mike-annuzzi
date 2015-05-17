@@ -103,7 +103,7 @@ http://bdinfosys.com/demo/?item=materialx
   width: 100%;
 }
 .accordion .accordion-content.open {
-  max-height: 1000px;
+  max-height: 2000px;
 }
 
 
