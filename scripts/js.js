@@ -25,3 +25,9 @@ $(".accordion-content").toggleClass("open");
 function clickButtonShows (){
 $(".accordion-content-shows").toggleClass("open");
 };
+
+function playSong(songFileName){
+	var song = new Audio(songFileName)
+	song.play();
+}
+
