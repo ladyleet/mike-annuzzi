@@ -50,6 +50,9 @@ http://bdinfosys.com/demo/?item=materialx
 	.bio-image-container {
 		max-height: 285px;
 		overflow: hidden;
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-top: -20px;
 	}
 	.bio-image {
 		width: 100%;
